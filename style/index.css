@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+
+    font-family: "Roboto","san-serif";
+    background-color: #e8eff0;
+}
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 32px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.logo img{
+    margin-bottom: 20px;
+}
+.envelope{
+    position: relative;
+    background: #fcfcfc;
+    padding:16px;
+}
+.envelope h1{
+    margin-top:10px;
+    margin-bottom: 16px; 
+    font-weight: 500;
+}
+.envelope-stripe{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+}
+.content-body{
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.link-btn{
+    font-weight: 500;
+  
+    cursor: pointer;
+    border-right: 2px dashed rgb(154, 154, 154);
+}
+.link-btn .home-btn{
+    color:black;
+    text-decoration: none;
+    padding-right:15px;
+}
+.link-btn .about-btn{
+    color:black;
+    text-decoration: none;
+    padding-right:15px;
+    padding-left:15px;
+}
+.link-btn .all-deals-btn{
+    color:black;
+    text-decoration: none;
+    padding-right:15px;
+    padding-left:15px;
+}
+.link-btn .submit-deal-btn{
+    color:black;
+    text-decoration: none;
+    padding-right:15px;
+    padding-left:15px;
+}
+.nav-bar li img{
+    padding-left: 15px;
+}
+
+.body-paper{
+    background: #fcfcfc;
+    padding:32px 32px 0px;
+    margin-bottom: 0px;
+}
+
+.input-box{
+    border:0.1px solid rgb(220, 220, 220);
+    width: 100%;
+    padding:8px;
+    margin-right:16px;
+    flex:5
+}
+.btn-box{
+    border-radius: 5px;
+    font-weight:500;
+    color:#525e6a;
+    border: 0.1px solid rgb(144, 150, 160);
+    flex:2;
+    background: linear-gradient(180deg,#bbc9d4 40%,#91a7b8 60%);
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 530; 
+    color: black;
+    padding-bottom: 16px;
+}
+.content-placeholder{
+    font-size: 13px;
+    font-weight: 410;
+    line-height: 200%;
+    color:rgb(160, 160, 160);
+    padding-top: 32px;
+    padding-left:3px;
+}
+.ticket{
+    display: flex;
+    justify-content: center; 
+    position:relative;
+    text-align: center;
+}
+.ticket-content{
+    width: 270px;
+    position:absolute;
+    top:25px;
+
+}
+.ticket-content .time{
+    margin-top:8px;
+    padding-top:16px;
+    padding-bottom: 16px;    
+    border-top: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    font-weight: 590;
+}
+.ticket-content .discount{
+    font-weight: 590;
+    color:rgb(160, 160, 160);
+    margin-top:8px;
+    padding-top:16px;
+    border-top: 1px solid rgb(226, 226, 226);
+
+}
+.ticket-content .discount-percent{
+    font-size:65px;
+    font-weight: 580;
+    padding-bottom: 8px;
+    border-bottom:2px dashed rgb(226, 226, 226); 
+}
+.value-save{
+    padding-top:8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.value-save .value{
+    font-weight: 590;
+    padding:12px;
+}
+.value-save .save{
+    font-weight: 590;
+    padding:12px;
+}
+
+.tweet-face-icon{
+    border-top:2px dashed rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:12px;
+}
+
+.tweet-face-icon .tweet-icon{
+    padding-right:8px;
+}
+
+.tweet-face-icon .facebook-icon{
+    padding-left:8px;
+}
+
+.deal-btn{
+    margin-top: 32px;
+    margin-left: 14px;
+    width: 273px;
+    height: 68px;
+    border-radius: 5px;
+    font-weight:500;
+    border: 0.1px solid rgb(175, 175, 175);
+    background: linear-gradient(180deg,#c8e085 40%,#a4cd5c 60%);
+    font-size:22px;
+    font-weight: 550;
+    color:#5d7730;
+}
+
+.logo-list{
+    background: white;
+    border-top:2px dashed rgb(226, 226, 226);
+    border-bottom:2px dashed rgb(226, 226, 226);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+
+.deal-box{
+    background:white;
+    box-shadow: 0px 0px 1px 1.5px rgb(224, 224, 224);
+    padding:5px 5px 10px;
+
+}
+.deal-box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.deal-title{
+    font-weight: 550;
+    font-size: 16px;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+.deal-info{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 550;
+    font-size: 14px;
+}
+.deal-info .value{
+    padding-right:20px;
+    border-right: 2px dashed rgb(226, 226, 226);
+}
+.deal-info .discount{
+    padding-right:20px;
+    border-right: 2px dashed rgb(226, 226, 226);
+}
+
+.deal-detail{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 2px dashed rgb(226, 226, 226);
+}
+.deal-detail button{
+    width: 90px;
+    height: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-weight: 550;
+    font-size: 13px;
+    color:#5d7730;
+    border: 0.1px solid rgb(175, 175, 175);
+    background: linear-gradient(180deg,#c8e085 40%,#a4cd5c 60%);
+}
+
+.twitter-buzz-content{
+    line-height: 150%; 
+    color:#A0A0A0;
+    margin-bottom: 16px;
+    
+}
+.dash-bottom{
+    border-bottom: 2px dashed rgb(226, 226, 226);
+}
+.dash-right{
+    border-right: 2px dashed rgb(226, 226, 226);
+}
+.twitter-buzz-content h1{
+    font-size: 15px; 
+    line-height: 150%; 
+    color:#A0A0A0;
+    margin-bottom: 16px;
+}
+.twitter-buzz-content button{
+     margin-bottom: 16px;
+    padding:4px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    color:#959595;
+    border: none;
+}
+
+.footer{
+    padding-top: 32px
+}
+.footer p{
+    font-size: 15px; 
+    line-height: 175%; 
+    color:#A0A0A0;
+}
+.footer .title{
+    font-weight:550;
+    font-size:20px;
+    padding-bottom: 16px;
+}
+
+.footer ul li{
+    color:#5a890b;
+    padding-bottom: 16px;
+    padding-top:16px;
+    cursor: pointer;
+}
+
+.copyright{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:#959595;
+    font-size: 12px;
+}
+.copyright h1{
+    padding-bottom: 8px;
+}
