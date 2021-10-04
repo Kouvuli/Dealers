@@ -103,7 +103,7 @@ body{
     padding-bottom: 16px;
 }
 .content-placeholder{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 410;
     line-height: 200%;
     color:rgb(160, 160, 160);
@@ -177,7 +177,7 @@ body{
 }
 
 .deal-btn{
-    margin-top: 32px;
+    margin-top: 36px;
     margin-left: 14px;
     width: 273px;
     height: 68px;
